@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F20C9AF21F8E21F000EC752 /* Pokemon Classic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F20C9AE21F8E1C6000EC752 /* Pokemon Classic.ttf */; };
 		7F77F97321EFB58D00B6FEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77F97221EFB58D00B6FEB8 /* AppDelegate.swift */; };
 		7F77F97521EFB58D00B6FEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77F97421EFB58D00B6FEB8 /* ViewController.swift */; };
 		7F77F97821EFB58D00B6FEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F77F97621EFB58D00B6FEB8 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F20C9AE21F8E1C6000EC752 /* Pokemon Classic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Classic.ttf"; sourceTree = "<group>"; };
 		7F77F96F21EFB58D00B6FEB8 /* UITableViewWithClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewWithClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F77F97221EFB58D00B6FEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F77F97421EFB58D00B6FEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F20C9B021F8E224000EC752 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F20C9AE21F8E1C6000EC752 /* Pokemon Classic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7F77F96621EFB58D00B6FEB8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		7F77F97121EFB58D00B6FEB8 /* UITableViewWithClick */ = {
 			isa = PBXGroup;
 			children = (
+				7F20C9B021F8E224000EC752 /* Fonts */,
 				7FF967B921F24A40007D6FF5 /* Product */,
 				7F77F97221EFB58D00B6FEB8 /* AppDelegate.swift */,
 				7F77F97421EFB58D00B6FEB8 /* ViewController.swift */,
@@ -251,6 +262,7 @@
 			files = (
 				7F77F97D21EFB58F00B6FEB8 /* LaunchScreen.storyboard in Resources */,
 				7F77F97A21EFB58F00B6FEB8 /* Assets.xcassets in Resources */,
+				7F20C9AF21F8E21F000EC752 /* Pokemon Classic.ttf in Resources */,
 				7F77F97821EFB58D00B6FEB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
